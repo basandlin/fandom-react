@@ -1,0 +1,11 @@
+.navbar {
+  background-color: #ccc;
+}
+
+.navbar__links {
+  display: flex;
+}
+
+.navbar__links--link {
+  margin-right: var(--space-8);
+}

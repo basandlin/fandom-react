@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "Open Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+  color: var(--primary);
+  background-color: var(--primary-bg);
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  --primary: #fff;
+  --secondary: #cfcfcf;
+  --tertiary: #bababa;
+
+  --blue: #5a7fa4;
+
+  --primary-bg: #080c0f;
+  --secondary-bg: #1c11e;
+  --tertiary-bg: #18191a;
+
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-md: 14px;
+  --text-lg: 20px;
+  --text-xl: 23px;
+  --text-xxl: 25px;
+
+  --space-1: 0.125em;
+  --space-2: 0.25em;
+  --space-3: 0.5em;
+  --space-4: 1em;
+  --space-5: 1.5em;
+  --space-8: 2em;
+  --space-10: 3em;
+  --space-12: 4em;
+}

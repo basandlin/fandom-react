@@ -6,7 +6,7 @@ body {
   height: 100%;
   width: 100%;
   color: var(--primary);
-  background-color: var(--primary-bg);
+  background-color: var(--bg-1);
 }
 
 #root {
@@ -21,9 +21,9 @@ html {
 
   --blue: #5a7fa4;
 
-  --primary-bg: #080c0f;
-  --secondary-bg: #1c11e;
-  --tertiary-bg: #18191a;
+  --bg-1: #080c0f;
+  --bg-2: #1e2021;
+  --bg-3: #3a4653;
 
   --text-xs: 12px;
   --text-sm: 13px;

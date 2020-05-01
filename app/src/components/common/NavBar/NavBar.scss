@@ -1,0 +1,21 @@
+.navbar {
+  background-color: var(--bg-2);
+  border-bottom: 5px solid var(--bg-3);
+  display: flex;
+  align-items: center;
+  height: 60px;
+
+  .navbar__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0 var(--space-4);
+
+    .navbar__item--text {
+      color: var(--primary);
+      font-size: 14px;
+    }
+  }
+}

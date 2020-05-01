@@ -1,21 +1,29 @@
-import About from "./Snowflakes/Snowflakes";
 import App from "./App/App";
-import Header from "./Header/Header";
-import Home from "./Home/Home";
-import NavBar from "./NavBar/NavBar";
-import NavBarItem from "./NavBar/NavBarItem";
-import Flammable from "./Flammable/Flammable";
-import Magnets from "./Magnets/Magnets";
-import Snowflakes from "./Snowflakes/Snowflakes";
+
+import Footer from "./common/Footer/Footer";
+import Header from "./common/Header/Header";
+import NavBar from "./common/NavBar/NavBar";
+import NavBarItem from "./common/NavBar/NavBarItem";
+import SectionTitle from "./common/SectionTitle/SectionTitle";
+
+import About from "./pages/Snowflakes/Snowflakes";
+import Flammable from "./pages/Flammable/Flammable";
+import Home from "./pages/Home/Home";
+import Magnets from "./pages/Magnets/Magnets";
+import Snowflakes from "./pages/Snowflakes/Snowflakes";
+import TalentCalculator from "./pages/Home/TalentCalculator";
 
 export {
   About,
   App,
-  Home,
+  Flammable,
+  Footer,
   Header,
+  Home,
+  Magnets,
   NavBar,
   NavBarItem,
-  Flammable,
-  Magnets,
-  Snowflakes
+  SectionTitle,
+  Snowflakes,
+  TalentCalculator
 };

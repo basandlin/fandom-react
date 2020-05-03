@@ -2,9 +2,18 @@ import React from "react";
 import { Button, SectionTitle } from "../../index";
 
 export default function News() {
+  let author = "Person";
+  let timePosted = "12:51pm";
+
+  const right = (
+    <div>
+      by <span>{author}</span> at {timePosted}
+    </div>
+  );
+
   return (
     <div className="news">
-      <SectionTitle title="Important News" />
+      <SectionTitle title="Important News" right={right} />
       <div className="home__news">
         <div className="home__news--text">
           Contrary to popular belief, Lorem Ipsum is not simply random text. It

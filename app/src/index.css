@@ -6,7 +6,7 @@ body {
   height: 100%;
   width: 100%;
   color: var(--primary);
-  background-color: var(--bg-1);
+  background-color: var(--dark-1);
 }
 
 #root {
@@ -19,11 +19,14 @@ html {
   --secondary: #cfcfcf;
   --tertiary: #bababa;
 
+  --gray: #656565;
   --blue: #5a7fa4;
 
-  --bg-1: #080c0f;
-  --bg-2: #1e2021;
-  --bg-3: #3a4653;
+  --background: #0a0e12;
+  --dark-1: #080c0f;
+  --dark-2: #1a1b1c;
+  --dark-3: #1e2021;
+  --dark-4: #3a4653;
 
   --text-xs: 12px;
   --text-sm: 13px;

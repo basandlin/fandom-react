@@ -1,6 +1,14 @@
 import React, { Fragment } from "react";
 import { Switch, Route } from "react-router-dom";
-import { Flammable, Header, Home, Magnets, NavBar, Snowflakes } from "../index";
+import {
+  Flammable,
+  Footer,
+  Header,
+  Home,
+  Magnets,
+  NavBar,
+  Snowflakes
+} from "../index";
 
 import "./App.scss";
 
@@ -17,14 +25,19 @@ export default function App() {
   return (
     <Fragment>
       <div className="app">
-        <Header />
-        <NavBar />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/liquids/flammable" component={Flammable} />
-          <Route exact path="/magnets" component={Magnets} />
-          <Route exact path="/snowflakes" component={Snowflakes} />
-        </Switch>
+        <div>
+          <Header />
+          <NavBar />
+        </div>
+        <div className="app__routes">
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/liquids/flammable" component={Flammable} />
+            <Route exact path="/magnets" component={Magnets} />
+            <Route exact path="/snowflakes" component={Snowflakes} />
+          </Switch>
+        </div>
+        <Footer />
       </div>
     </Fragment>
   );

@@ -1,9 +1,13 @@
 .app {
-  background-color: var(--bg-1);
+  background-color: var(--background);
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100%;
   margin: auto;
   width: 1000px;
-  margin-top: var(--space-12);
+
+  .app__routes {
+    flex: 1 1 100%;
+  }
 }

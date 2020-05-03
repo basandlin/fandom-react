@@ -2,5 +2,18 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
+  margin-top: var(--space-10);
   padding-bottom: var(--space-4);
+
+  .header__right {
+    display: flex;
+    align-items: center;
+
+    input {
+      border-radius: 3px;
+      height: 20px;
+      margin-right: var(--space-3);
+      margin-left: var(--space-4);
+    }
+  }
 }

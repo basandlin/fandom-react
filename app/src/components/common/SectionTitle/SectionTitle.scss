@@ -5,9 +5,9 @@
   height: 43px;
   justify-content: center;
   padding: 0 var(--space-4);
+  font-size: var(--text-xxl);
 
   .container__title {
-    font-size: 20px;
     font-weight: 600;
   }
 
@@ -30,4 +30,5 @@
 
 .has-right {
   justify-content: space-between;
+  font-size: var(--text-lg);
 }
